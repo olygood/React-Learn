@@ -1,7 +1,8 @@
 # React-Learn
-Apprendre react  
-le langage utilisé par REACT est du JSX  
-react est une librairie javasript pour créer des interfaces utilisateur par Jordan Walke  
+Apprendre react :    
+Crer par Jordan Walke 
+Le langage utilisé par REACT est du JSX  
+React est une librairie javasript pour créer des interfaces utilisateur    
 interface utilisateur ?  
 C'est un site web ou l'aspect visuel est est interface utilisateur   
 c'est avec l'interface que l'utilisateur va réagir  
