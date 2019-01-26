@@ -1,6 +1,6 @@
 # React-Learn
 Apprendre react :    
-Crer par Jordan Walke 
+Créer par Jordan Walke 
 Le langage utilisé par REACT est du JSX  
 React est une librairie javasript pour créer des interfaces utilisateur    
 interface utilisateur ?  
@@ -43,6 +43,39 @@ et du coup l'utilisateur n'aura pas à attendre le serveur pour recalculer l'ens
 Et l'utilisateur aura une sensation de fluidité 
 une fois que le client à récupérer l'application elle va quand même communiquer avec le serveur, 
 mais uniquement pour récupérer de la donnée via des requêtes AJAX. 
+
+## instalation de react et des ces outils  
+> avec le CLI : le CLI de react officiel (commande line interface)  
+c'est un outils qui est mi par l"équipe de développement react qui va  
+nous permettre de créer des application REACT très facilement et d'avoir un floate de developpement  
+très optimiser 
+### instalation:  
+> installer node.js et npm ...  
+node --version  
+npm --version  
+**ajouter le package le CLI en Global:**  
+> sudo npm install create react-app -g  (npm install create-react-app -g )
+ou:
+sudo npm install -g create-react-app
+et d'être dans le repertoir racine pas dans votre repertoir 
+car il doit copier les fichier dans /usr/local/bin/react-app
+  (-g: global pour l'utiliser dans n'importe quel folder de notre ordinateur)  
+**créer notre application:** 
+> ce mettre dans votre repo folder 
+pour faire référence au CLI on va cistématiquement faire:  
+> create-react-app myapp  (my app: est le nom de l'application)  
+> on vient d'installer notre première application  
+le CLI va télécharger REACT, une autre librairie REACT DOM, et de télécharger  
+toutes ses librairies les mettre danslefolder de l'application.  
+# Install the CLI tool
+npm install -g create-react-app
+
+# Create an app
+create-react-app my-app-name
+
+**allez dans votre folder:**  
+cd my-app-firstappreact  
+npm install
 
 
 
