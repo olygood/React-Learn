@@ -55,12 +55,12 @@ très optimiser
 node --version  
 npm --version  
 ### mettre à jour node.js  
-node.js mettre a jour  exemple version 8 => version 11 linux debian:  
+> node.js mettre a jour  exemple version 8 => version 11 linux debian:  
 sudo npm cache clean -f   
 sudo npm install -g n  
 sudo n stable  
 **ajouter le package le CLI en Global:**  
-sudo npm install -g create-react-app
+> sudo npm install -g create-react-app
 sudo npm install -g = install en global pas le repertoire ou l'on se trouve  
 Mais sur le disque dur dans le fichier :  
 usr/local/bin/create-react-app un fichier cli   
@@ -71,16 +71,16 @@ pour garder c'est instruction a la création d'une nouvelle application React ON
 **créer notre application:** 
 > ce mettre dans votre repository folder :   
 pour faire référence au CLI on va systématiquement faire:  
-> **create-react-app "nom de l'application"**  (my app: est le nom de l'application)  
+**create-react-app "nom de l'application"**  (my app: est le nom de l'application)  
 > on vient d'installer notre première application  
 le CLI va télécharger REACT, une autre librairie REACT DOM, et de télécharger  
 toutes ses librairies les mettre dans le folder de l'application.
 **se mettre dans notre aaplication:**  
 cd "nom de l'application"  
 **lancer le server:**  
-npm start
-##RESUMER
-install node.js avec npm
+> npm start
+##RESUMER:  
+> install node.js avec npm
 npm install -g creat-react-app (qui va s'installer dans usr/local/bin/creat-react-app)  
 ce mettre dans le repository:  
 creat-react-app "nom de mon app" (en minuscule)
