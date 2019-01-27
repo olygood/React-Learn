@@ -60,8 +60,8 @@ sudo npm cache clean -f
 sudo npm install -g n  
 sudo n stable  
 **ajouter le package le CLI en Global:**  
-> sudo npm install -g create-react-app
-> sudo npm install -g = install en global pas le repertoire ou l'on se trouve  
+sudo npm install -g create-react-app
+sudo npm install -g = install en global pas le repertoire ou l'on se trouve  
 Mais sur le disque dur dans le fichier :  
 usr/local/bin/create-react-app un fichier cli   
 creat-react-app est le nom du fichier qui contient les instructions pour créer une
