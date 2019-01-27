@@ -86,7 +86,8 @@ ce mettre dans le repository:
 creat-react-app "nom de mon app" (en minuscule)
 cd "nom de l'application"  
 npm start (lancer le server)
-
+**Navigateur: localhost:3000**
+_**application react tourne**_
 
 
 
