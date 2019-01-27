@@ -50,32 +50,43 @@ c'est un outils qui est mi par l"équipe de développement react qui va
 nous permettre de créer des application REACT très facilement et d'avoir un floate de developpement  
 très optimiser 
 ### instalation:  
+**créer un repository**
 > installer node.js et npm ...  
 node --version  
 npm --version  
+### mettre à jour node.js  
+node.js mettre a jour  exemple version 8 => version 11 linux debian:  
+sudo npm cache clean -f   
+sudo npm install -g n  
+sudo n stable  
 **ajouter le package le CLI en Global:**  
-> sudo npm install create react-app -g  (npm install create-react-app -g )
-ou:
-sudo npm install -g create-react-app
-et d'être dans le repertoir racine pas dans votre repertoir 
-car il doit copier les fichier dans /usr/local/bin/react-app
-  (-g: global pour l'utiliser dans n'importe quel folder de notre ordinateur)  
+> sudo npm install -g create-react-app
+> sudo npm install -g = install en global pas le repertoire ou l'on se trouve  
+Mais sur le disque dur dans le fichier :  
+usr/local/bin/create-react-app un fichier cli   
+creat-react-app est le nom du fichier qui contient les instructions pour créer une
+Application React avec CLI  
+pour garder c'est instruction a la création d'une nouvelle application React ON FAIT :  
+**creat-react-app "nom de votre application au choix"**
 **créer notre application:** 
-> ce mettre dans votre repo folder 
-pour faire référence au CLI on va cistématiquement faire:  
-> create-react-app myapp  (my app: est le nom de l'application)  
+> ce mettre dans votre repository folder :   
+pour faire référence au CLI on va systématiquement faire:  
+> **create-react-app "nom de l'application"**  (my app: est le nom de l'application)  
 > on vient d'installer notre première application  
 le CLI va télécharger REACT, une autre librairie REACT DOM, et de télécharger  
-toutes ses librairies les mettre danslefolder de l'application.  
-# Install the CLI tool
-npm install -g create-react-app
+toutes ses librairies les mettre dans le folder de l'application.
+**se mettre dans notre aaplication:**  
+cd "nom de l'application"  
+**lancer le server:**  
+npm start
+##RESUMER
+install node.js avec npm
+npm install -g creat-react-app (qui va s'installer dans usr/local/bin/creat-react-app)  
+ce mettre dans le repository:  
+creat-react-app "nom de mon app" (en minuscule)
+cd "nom de l'application"  
+npm start (lancer le server)
 
-# Create an app
-create-react-app my-app-name
-
-**allez dans votre folder:**  
-cd my-app-firstappreact  
-npm install
 
 
 
