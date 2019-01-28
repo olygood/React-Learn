@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { Header, MoviesLists, MoviesDetails, MoviesElements } from './components';
 import logo from './logo.svg';
 import './App.css';
-import MoviesList from './components/movies-lists/MoviesLists';
-import MoviesDetails from './components/movies-details/MoviesDetails';
+//import MoviesList from './components/movies-lists/MoviesLists';
+//import MoviesDetails from './components/movies-details/MoviesDetails';
 
 class App extends Component {
   render() {
@@ -10,8 +11,9 @@ class App extends Component {
       <div className="App">
         
         <Header />
-        <MoviesList />
+        <MoviesLists />
         <MoviesDetails />
+        <MoviesElements />
 
 
       </div>

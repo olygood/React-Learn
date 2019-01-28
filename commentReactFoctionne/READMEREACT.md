@@ -63,5 +63,10 @@ ReactDom.render(element,document.getElementById('root));
 
 ##Propriété: tag composant:  
 
+## fonctionnement accéléré:  
+> create-react-app "nom de l'appliction"  
 
 
+
+download le link de bootstrap css ,coller le dans index.html  
+en dessous de <tittle><tittle> 
