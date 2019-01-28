@@ -11,9 +11,15 @@ import * as serviceWorker from './serviceWorker';
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
 */
+class Header1 extends React.Component {
+    render(){
+        return <h1>CHRONOZ</h1>
+    }
+}
+ReactDOM.render(<Header1 />,document.getElementById('root'));
 
 setInterval(() => {
     const element = <h1>{ new Date().getSeconds() }</h1>
     
-    ReactDOM.render(element, document.getElementById('root'));
+    ReactDOM.render(element, document.getElementById('clock'));
 },1000);
