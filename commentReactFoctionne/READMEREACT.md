@@ -24,25 +24,30 @@ et oprère uniquement sur les différences
 **à l'aide d'une fonction:**
 1. créer une variable qui vas avoir une fonction qui va retouner un élément **REACT**
 2. rendre le composant sur le**DOM**
+```
 1. const Composant1 = () =>{
-    return <h1>hello world</h1>
+    return `<h1>hello world</h1>`
 }
-2. **ReactDom.render(<Composant1 />,document.getElementById('root));**
+```
+```
+2. ReactDom.render(<Composant1 />,document.getElementById('root));
+```
 > <Composant1 /> c'est comme si on avait ecrit {} comme si on utilisait 
 un objet dans une méthod avec {}, au lieu d'avoir une variable intermédiare.  
  la methode d render de Reactdom ,'accepte que des éléments  
 donc j'appelle mon composant **<Composant1/>**  
 la methode render va essayer d'interprètes le composants elle va voir qu'il y a une majuscule 
 le fait qu'il y a une majuscule fait que l'on est en présence d'un composant, pas d'un tag  
-- elle va allez dans la variable du composant et **return* _hello word_ 
+- elle va allez dans la variable du composant et `**return* _hello word`
 dans l'elément qui a **ID 'root'**   
 **ou avec une étape intermédiare:**  
-
+```
 const Composant1 = () =>{
-    return <h1>hello world</h1>
+    return `<h1>hello world</h1>`
  const element = <Composant1 />   
 ReactDom.render(element,document.getElementById('root));
-**<Composant />**  
+**<Composant />**
+```  
 cest comme si c'était : <composant></composant> qu'il n' y arien entre les deux.
 créer un composant avec une méthode représente quelques limite on va le  
 réserver pour le composant qui ne contient aucune logique  
@@ -51,13 +56,15 @@ les composants qui ne vont pas récuperer de **DATA**
 **2a**  
 **utilisé les classes es6:**  
 comment ca marche:  
+```
 class Composant1 extends React.Component {
     render(){
         return <h1>hello world</h1>
     }
 
 }
-ReactDom.render(element,document.getElementById('root));
+```
+**`ReactDom.render(element,document.getElementById('root));`**
 **explication du code:**  
 
 
@@ -70,3 +77,25 @@ ReactDom.render(element,document.getElementById('root));
 
 download le link de bootstrap css ,coller le dans index.html  
 en dessous de <tittle><tittle> 
+##Codition et liste:  
+**la condition:**
+>Rendu Conditionel: vonloté ou nom d'afficher une partie d'un template qui  
+serait présent dans un composant et cette condition elle serait relative  
+à une partie logique que vous auriez également dans ce composant 
+exemple: avec angular: ngIf, vue: v-if  
+avec react on a pas besoin des ces directive puisqu l'on on ecrit du javascript dans le template 
+on va pouvoir utiliser une expression javascript pour définir si oui ou non on veut afficher notre card (élément)
+pour Utiliser du javascript dans un éléments REACT: on utlise les:{}: 
+**`{condition && template}`**
+**exemple:**  
+nous on veut afficher quelques chose si une condition est remplie :
+```
+this.state= {
+    displayCard: false
+}
+```
+**les listes:**
+>imaginez que vous avez une liste de films que vous voulez  
+affichez à l'écran vous ne savez pas à l'avance le nombre de films que vous allez afficher  
+donc donc on va devoir faire un système de boucle pour afficher les  
+films de façon élégante et efficace  
