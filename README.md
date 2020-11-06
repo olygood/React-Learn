@@ -6,7 +6,7 @@ Some text
 
 #hello-world
 
-[a link](# MyTitle) 
+[MyTitle](# MyTitle) 
 
 MyTitle  
 
